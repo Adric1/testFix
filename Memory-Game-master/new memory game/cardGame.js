@@ -102,7 +102,8 @@ for(var r = 0; r < rows; r++)
 	table += '<tr>';
 	for(var c = 0; c < cols; c ++)
 	{
-        var cardFront = `<img src="images/DSC100497013.jpg" onclick="pick(${index++});" height="150px" width="150px"/>`;
+        var cardFront = '<img src="images/DSC100497013.jpg" onclick="pick(' + index + ');" height="150px" width="150px"/>';
+	    index += 1;
 		table +='<td><div id="index">' + cardFront + '</div></td>';
 	}
 	table += '</tr>';
