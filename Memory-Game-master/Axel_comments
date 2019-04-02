@@ -1,0 +1,7 @@
+1) In the cardGame function; the variables defined should be as follows:
+  var currentCard = array.length;
+	var temporaryCard, randomCard;
+  
+2)Where the cardGame function is called: var mix = cardGame(card);
+  the letter 's' is missing on the parameter 'card' being passed in and should be as follows:
+  var mix = cardGame(cards);
